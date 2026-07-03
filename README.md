@@ -1,19 +1,24 @@
-# Core Center
+# Core Center Pro
 
-Site internet pour regrouper des communautés Discord.
+Site vitrine moderne pour référencer des serveurs Discord.
 
-## Fichiers
+## Installation sur GitHub
 
-- `index.html` : page principale
-- `style.css` : design du site
-- `script.js` : recherche des serveurs
+1. Supprime ou remplace les anciens fichiers du dépôt.
+2. Ajoute :
+   - `index.html`
+   - `style.css`
+   - `script.js`
+   - `README.md`
+3. Clique sur `Commit changes`.
+4. Va dans `Settings > Pages`.
+5. Vérifie :
+   - Source : `Deploy from a branch`
+   - Branch : `main`
+   - Folder : `/ root`
 
-## Mise en ligne GitHub Pages
+## Modifier les serveurs
 
-1. Ajoute ces fichiers dans ton dépôt GitHub.
-2. Va dans `Settings`.
-3. Clique sur `Pages`.
-4. Source : `Deploy from a branch`.
-5. Branch : `main`.
-6. Folder : `/ root`.
-7. Clique sur `Save`.
+Ouvre `script.js`, puis modifie le tableau `servers`.
+
+Remplace `link: "#"` par le lien d'invitation Discord.
